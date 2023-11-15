@@ -1,8 +1,8 @@
 .App{
-  background-image: url(../public/updadte-s&a.jpg);
+  background-image: url(../public/update-s&a.jpg);
   min-height: 100vh;
   background-size: cover;
-  background-position: right;
+  background-position: center;
   background-attachment: fixed ;
   display: flex;
   justify-content: center;
@@ -46,7 +46,7 @@
 }
 h1{
   display: inline-block;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 p{
   display: block;
@@ -55,11 +55,11 @@ p{
 }
 .head{
   color: black;
-  width: 70vw;
+  width: 50vw;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   text-align: center;
-  gap: 1rem;
+  gap: 2rem;
   padding-left: 10vw;
 }
 .head>a{
@@ -91,12 +91,8 @@ a{
 }
 
 .home{
-
   min-height: 100vh;
-  background-size: cover;
-  background-position: right;
-  background-attachment: fixed;
 }
 .counter{
-  width: 10em;
+  min-width: 7em;
 }
