@@ -15,7 +15,7 @@ function Home() {
                 <div className="name">
                     <div className="casal">
                         <h1>Samuel & Adriana</h1>
-                        <p>Dia 25 Nov 2023</p>
+                        <p> 25 Nov 2023</p>
                     </div>
                     
                 </div>
