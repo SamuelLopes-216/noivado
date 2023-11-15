@@ -2,7 +2,7 @@
   background-image: url(../public/update-s&a.jpg);
   min-height: 100vh;
   background-size: cover;
-  background-position: center;
+  background-position: center left;
   background-attachment: fixed ;
   display: flex;
   justify-content: center;
@@ -29,7 +29,7 @@
 }
 
 .name{
-  min-height: 50vh;
+  min-height: 40vh;
   min-width: 30%;
   display: flex;
   justify-content: center;
