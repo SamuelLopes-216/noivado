@@ -1,8 +1,8 @@
 .App{
   background-image: url(../public/S&A.jpg);
   min-height: 100vh;
-  background-size: contain;
-  background-position: center ;
+  background-size: cover;
+  background-position: center right ;
   background-attachment: fixed ;
   display: flex;
   justify-content: center;
