@@ -1,8 +1,12 @@
+.All{
+    background-image: url(../public/S&A.jpg);
+  min-height: 100vh;
+}
+
 .App{
-  background-image: url(../public/S&A.jpg);
   min-height: 100vh;
   background-size: cover;
-  background-position: top right ;
+  background-position: center right ;
   background-attachment: fixed ;
   display: flex;
   justify-content: center;

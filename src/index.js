@@ -8,8 +8,10 @@ import Home from './Home.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home/>
-    <App />
+    <div class="All">
+      <Home/>
+      <App />
+    </div>
   </React.StrictMode>
 );
 
