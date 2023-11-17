@@ -1,13 +1,12 @@
 .App{
-  background-color: rgb(255, 255, 255);
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .home{
-  min-height: 33vh;
+  min-height: 30vh;
   background-image: url(../public/S&A.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -54,7 +53,7 @@
 }
 
 .backconf{
-  min-height: 100vh;
+  min-height: 30vh;
   background-image: url(../public/update-s&a.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -66,8 +65,8 @@
 }
 
 .link{
-  min-width: 30%;
-  min-height: 40%;
+  min-width: 5%;
+  min-height: 30;
   background-color: rgba(0, 0, 0, 0.623);
   padding: 2rem;
   border-radius: 1rem;
@@ -122,5 +121,5 @@ center{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 30vh;
 }
