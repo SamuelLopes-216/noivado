@@ -7,9 +7,14 @@
 }
 
 .App{
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.home{
+  min-height: 100vh;
 }
 
 .container{
