@@ -7,7 +7,7 @@
 }
 
 .home{
-  min-height: 100vh;
+  min-height: 33vh;
   background-image: url(../public/S&A.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -95,7 +95,8 @@ p{
   display: flex;
   justify-content: center;
   text-align: center;
-  gap: 1rem;
+  gap: 0.5rem;
+  padding: 10px;
 }
 a{
   font-size: large;
