@@ -69,8 +69,8 @@
   padding: 2rem;
   border-radius: 1rem;
   font-size: 1rem;
-  color:rgba(255, 255, 255, 0.664);
-  background-color: rgba(26, 26, 26, 0.486);
+  color:rgb(255, 255, 255);
+  background-color: rgba(26, 26, 26, 0.945);
 }
 
 .casal{
@@ -100,15 +100,6 @@ a{
   color: #000;
   font-style: italic;
   text-decoration: none;
-}
-.header{
-  width: 98.8vw;
-  background-color: rgba(255, 255, 255, 0.623);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 2.5rem;
-  position: fixed;
 }
 
 .counter{
