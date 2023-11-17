@@ -7,10 +7,8 @@ function Home() {
                     <div className="head">
                         <a href="#Home">Inicio</a>
                         <a href='#coutdown'>Contagem Regressiva</a>
-                        <a href='#photo'>Fotos</a>
-                    </div>
-                    <a href='https://wa.me/qr/35OMQE6JDKHAM1' className='check'>Confirme sua Presença Aqui</a> 
-                </div>
+                        <a href='#confirma'>Confirme sua Presença Aqui</a> 
+                </div></div>
                 <div className="backname" id='Home'>
                 <div className="name">
                     <div className="casal">

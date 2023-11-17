@@ -81,15 +81,16 @@ p{
 }
 .head{
   color: black;
-  width: 50vw;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   text-align: center;
   gap: 1rem;
-  padding-left:10px ;
 }
-.head>a{
+a{
+  font-size: large;
   color: #000;
+  font-style: italic;
+  text-decoration: none;
 }
 .header{
   width: 100vw;
@@ -99,23 +100,6 @@ p{
   align-items: center;
   min-height: 2.5rem;
   position: fixed;
-}
-a{
-  color:rgb(255, 255, 255);
-  font-size: bolder;
-  font-family: cursive;
-  font-style: italic;
-  text-decoration: none;
-}
-.check{
-  font-size: 1rem;
-  width: 30vw;
-  padding-right: 10px;
-  margin-left: 1rem;
-  background-color: rgba(0, 0, 8, 0.438);
-  border-radius: 0.5rem;
-  border: 1px   solid black;
-  padding-left: 1em;
 }
 
 .counter{
