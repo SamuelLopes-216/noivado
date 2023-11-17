@@ -52,7 +52,7 @@
 }
 
 .backconf{
-  min-height: 66vh;
+  min-height: 50vh;
   background-image: url(../public/update-s&a.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -63,14 +63,14 @@
 }
 
 .link{
-  min-width: 50%;
-  min-height: 30;
+  min-width: 30%;
+  min-height: 30px;
   background-color: rgba(0, 0, 0, 0.623);
   padding: 2rem;
   border-radius: 1rem;
   font-size: 1rem;
-  color:rgba(0, 0, 0, 0.664);
-  background-color: rgba(240, 248, 255, 0.486);
+  color:rgba(255, 255, 255, 0.664);
+  background-color: rgba(26, 26, 26, 0.486);
 }
 
 .casal{
