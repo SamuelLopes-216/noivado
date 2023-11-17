@@ -1,13 +1,5 @@
-.All{
-  background-image: url(../public/S&A.jpg);
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center right ;
-  background-attachment: fixed ;
-}
-
 .App{
-  width: 100vw;
+  background-color: wheat;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -16,12 +8,27 @@
 
 .home{
   min-height: 100vh;
+  background-image: url(../public/S&A.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center right ;
+  background-attachment: fixed ;
+  box-shadow:0px 0px 10px 7px black inset;
+  display: flex;
+  justify-content: center;
+
+}
+
+.backname{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container{
   min-width: 30%;
   min-height: 40%;
-  background-color: rgba(255, 255, 255, 0.623);
+  background-color: rgba(0, 0, 0, 0.623);
   padding: 2rem;
   border-radius: 1rem;
 }
@@ -47,11 +54,21 @@
   color: white;
   text-shadow: 3px 3px black;
 }
+
+.backconf{
+  min-height: 100vh;
+  background-image: url(../public/update-s&a.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 7px black inset;
+}
+
 .casal{
   display: block;
   justify-content: center;
   align-items: center;
-
 }
 h1{
   display: inline-block;
