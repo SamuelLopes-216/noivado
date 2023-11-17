@@ -7,7 +7,6 @@ function Home() {
                     <div className="head">
                         <a href="#Home">Inicio</a>
                         <a href='#coutdown'>Contagem Regressiva</a>
-                        <a href='#confirma'>Confirme sua Presença Aqui</a> 
                 </div></div>
                 <div className="backname" id='Home'>
                 <div className="name">
