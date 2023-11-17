@@ -5,5 +5,9 @@
 }
 
 body{
-  min-height: 100vh;
+  min-height: 100%;
+  background-image: url(../public/S&A.jpg);
+  background-position: top;
+  background-size: contain;
+  backdrop-filter: blur(8px);
 }
