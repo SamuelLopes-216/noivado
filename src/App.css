@@ -1,5 +1,5 @@
 .App{
-  background-color: wheat;
+  background-color: rgb(255, 255, 255);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -10,8 +10,9 @@
   min-height: 100vh;
   background-image: url(../public/S&A.jpg);
   min-height: 100vh;
-  background-size: cover;
-  background-position: center right ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center ;
   background-attachment: fixed ;
   box-shadow:0px 0px 10px 7px black inset;
   display: flex;
@@ -59,7 +60,7 @@
   min-height: 100vh;
   background-image: url(../public/update-s&a.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
@@ -68,7 +69,12 @@
 }
 
 .link{
-  font-size: 2rem;
+  min-width: 30%;
+  min-height: 40%;
+  background-color: rgba(0, 0, 0, 0.623);
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 1rem;
   color:rgba(0, 0, 0, 0.664);
   background-color: rgba(240, 248, 255, 0.486);
 }
@@ -112,4 +118,11 @@ a{
 
 .counter{
   min-width: 5em;
+}
+
+center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
 }
