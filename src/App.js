@@ -6,7 +6,7 @@ import useCountdown from "./hooks/useCountdow";
 import './App.css';
 
 function App() {
-  const [day, hour, minute, second] = useCountdown("nov 25, 2023 12:00:00")
+  const [day, hour, minute, second] = useCountdown("nov 15, 2024 13:00:00")
   return (
     <div className="App" id="coutdown">
       <div className='container'>
